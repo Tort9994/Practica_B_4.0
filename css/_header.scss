@@ -3,12 +3,13 @@ header {
   background-size: cover;
   background-position: center 0;
   background-repeat: no-repeat;
+  display: grid;
   .contenedor_logo_menu {
     padding: 25px 0;
     border-bottom: 1px solid rgba($color: #000000, $alpha: 0.4);
     .logo {
-      display: block;
       a {
+        display: block;
         img {
           vertical-align: top;
         }
@@ -27,7 +28,7 @@ header {
   .textos {
     color: #fff;
     text-align: center;
-    margin: 200px 0;
+    margin: 200px;
     .primera_linea,
     .segunda_linea {
       font-family: "Open Sans", Arial, Helvetica, sans-serif;

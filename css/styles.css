@@ -10,11 +10,12 @@ header {
   background: url(../img/big.jpg), #019851;
   background-size: cover;
   background-position: center 0;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  display: grid; }
   header .contenedor_logo_menu {
     padding: 25px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4); }
-    header .contenedor_logo_menu .logo {
+    header .contenedor_logo_menu .logo a {
       display: block; }
       header .contenedor_logo_menu .logo a img {
         vertical-align: top; }
@@ -28,7 +29,7 @@ header {
   header .textos {
     color: #fff;
     text-align: center;
-    margin: 200px 0; }
+    margin: 200px; }
     header .textos .primera_linea,
     header .textos .segunda_linea {
       font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -255,9 +256,48 @@ footer .social {
       text-decoration: none; }
     footer .social a.facebook {
       background: #3b5998; }
-    footer .social a.twitter {
+    footer .social a.instagram {
       background: #55acee; }
     footer .social a.youtube {
       background: #cd201f; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px;
+    font-size: 16px; }
+    header .textos .primera_linea {
+      font-size: 1.5em; }
+    header .textos .segunda_linea {
+      font-size: 1.3em; }
+    header .textos .contenedor-btns a {
+      margin-bottom: 10px; }
+
+  .main .fotos .foto .titulo {
+    margin-top: 0; }
+  .main .clientes .cliente {
+    margin-bottom: 40px; } }
+@media screen and (max-width: 768px) {
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 40px; }
+  .main .fotos .foto {
+    text-align: center; }
+    .main .fotos .foto .texto * {
+      text-align: left; }
+    .main .fotos .foto .texto p {
+      margin-bottom: 10px; }
+  .main .precios .precio {
+    margin-bottom: 20px; }
+
+  .footer .direccion {
+    text-align: center; }
+    .footer .direccion .logo img {
+      margin-top: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
