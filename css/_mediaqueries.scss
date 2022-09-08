@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   header {
     .contenedor_logo_menu {
       .logo {
@@ -13,7 +13,7 @@
       }
     }
     .textos {
-      margin: 50px;
+      margin: 200px;
       font-size: 16px;
       .primera_linea {
         font-size: 1.5em;
@@ -44,6 +44,11 @@
   }
 }
 @media screen and (max-width: 768px) {
+  header {
+    .textos {
+      margin: 50px;
+    }
+  }
   .main {
     .caracteristicas {
       .caracteristica {
